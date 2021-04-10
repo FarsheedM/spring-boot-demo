@@ -1,6 +1,12 @@
 :doctype: book
+:sectnums:
+:toc:
+:toc-placement!:
+:toclevels: 4k
+:toc-title: Table of Contents
+:chapter-label:
 
-= "Hallo welt" in Spring Boot
+= "Hello World" in Spring Boot
 
 In order to run a simple web application in Spring Boot, the following tools and minimal knowledge
 about them are recommended:
