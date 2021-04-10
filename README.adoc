@@ -1,0 +1,13 @@
+:doctype: book
+
+= "Hallo welt" in Spring Boot
+
+In order to run a simple web application in Spring Boot, the following tools and minimal knowledge
+about them are recommended:
+
+= Prerequisites
+
+* JDK (Java Development Kit), which includes JRE (java runtime environment). It is the tool to run and
+compile and run java applications.
+
+* IDE (Integrated Development Environment)
