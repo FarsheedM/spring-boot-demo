@@ -66,7 +66,11 @@ Just type `localhost:8080/greeting` in your browser to see the response.
 
 But how this really works under the hood?
 
-image::graphics/comingSoon.png[comingSoon]
+This application is based on the REST-API architecture. In short, we could understand it as
+a serie of stateless HTTP request and response to the app/server and back to the client as
+illustrated below:
+
+image::graphics/rest_archi.png[REST]
 
 
 == References

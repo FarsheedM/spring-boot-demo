@@ -16,6 +16,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     runtimeOnly 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    /**
+     * For test of openAPI
+     */
+    implementation "org.springdoc:springdoc-openapi-ui:1.5.7"
 }
 
 test {
