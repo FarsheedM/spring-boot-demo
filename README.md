@@ -1,15 +1,3 @@
-== Spring Boot Demo
-Fasheed Madihi
-
-This is a demo to show how to write a "Hello World" in Spring Boot.
-
-The tech-stack used in this trivial example is as follows:
-
-:imagesdir: ./doc/graphics
-include::doc/SpringBoot.adoc[]
-
-
-////
 # Spring Boot Demo
 
 This is a demo to show how to write a "Hello World" in Spring Boot.
@@ -23,6 +11,3 @@ The tech-stack used in this trivial example is as follows:
 ![git](./doc/graphics/git.png)
 ![intelliJ](./doc/graphics/intelliJ.jpeg)
 ![openApi](./doc/graphics/openAPI.png)
-
-////
-
