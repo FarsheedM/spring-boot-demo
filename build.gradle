@@ -14,7 +14,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    runtimeOnly 'com.h2database:h2'
+    /**
+     * Spring-Actuator (required for services like Prometheus and Spring-Health)
+     */
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     /**
      * For test of openAPI
