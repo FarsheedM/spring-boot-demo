@@ -41,14 +41,14 @@ spec:
             exec:
               command:
                 - curl
-                - localhost:8080/actuator/health
+                - localhost:8080/actuator/health/liveness |grep -i up
             initialDelaySeconds: 60
             periodSeconds: 10
           readinessProbe:
             exec:
               command:
                 - curl
-                - localhost:8080/actuator/health
+                - localhost:8080/actuator/health/readiness |grep -i up
             initialDelaySeconds: 60
             periodSeconds: 10
           resources:
